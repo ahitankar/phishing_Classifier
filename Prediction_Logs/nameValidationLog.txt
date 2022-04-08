@@ -1,0 +1,15 @@
+2022-03-23/20:20:03		Invalid File Name!! File moved to Bad Raw Folder :: phising_080020_120.csv
+2022-03-23/20:20:03		Invalid File Name!! File moved to Bad Raw Folder :: phising_08012020_120.csv
+2022-03-23/20:20:03		Valid File name!! File moved to GoodRaw Folder :: phising_08012020_120000.csv
+2022-04-07/17:38:25		Invalid File Name!! File moved to Bad Raw Folder :: phising_080020_120.csv
+2022-04-07/17:38:25		Invalid File Name!! File moved to Bad Raw Folder :: phising_08012020_120.csv
+2022-04-07/17:38:25		Valid File name!! File moved to GoodRaw Folder :: phising_08012020_120000.csv
+2022-04-07/17:53:00		Invalid File Name!! File moved to Bad Raw Folder :: phising_080020_120.csv
+2022-04-07/17:53:00		Invalid File Name!! File moved to Bad Raw Folder :: phising_08012020_120.csv
+2022-04-07/17:53:00		Valid File name!! File moved to GoodRaw Folder :: phising_08012020_120000.csv
+2022-04-07/17:54:22		Invalid File Name!! File moved to Bad Raw Folder :: phising_080020_120.csv
+2022-04-07/17:54:22		Invalid File Name!! File moved to Bad Raw Folder :: phising_08012020_120.csv
+2022-04-07/17:54:22		Valid File name!! File moved to GoodRaw Folder :: phising_08012020_120000.csv
+2022-04-07/18:27:21		Invalid File Name!! File moved to Bad Raw Folder :: phising_080020_120.csv
+2022-04-07/18:27:21		Invalid File Name!! File moved to Bad Raw Folder :: phising_08012020_120.csv
+2022-04-07/18:27:21		Valid File name!! File moved to GoodRaw Folder :: phising_08012020_120000.csv

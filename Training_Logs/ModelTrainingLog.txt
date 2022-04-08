@@ -1,0 +1,158 @@
+2022-03-23/20:03:16		Start of Training
+2022-03-23/20:03:16		Entered the get_data method of the Data_Getter class
+2022-03-23/20:03:16		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-03-23/20:03:16		Entered the is_null_present method of the Preprocessor class
+2022-03-23/20:03:16		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-03-23/20:03:16		Entered the separate_label_feature method of the Preprocessor class
+2022-03-23/20:03:16		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-03-23/20:03:16		Entered the elbow_plot method of the KMeansClustering class
+2022-03-23/20:03:24		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-03-23/20:03:24		Entered the create_clusters method of the KMeansClustering class
+2022-03-23/20:03:25		Entered the save_model method of the File_Operation class
+2022-03-23/20:03:25		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-03-23/20:03:25		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-03-23/20:03:25		Entered the get_best_model method of the Model_Finder class
+2022-03-23/20:03:25		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-03-23/20:03:34		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-03-23/20:03:34		AUC for XGBoost:0.9892971611721613
+2022-03-23/20:03:34		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-03-23/20:03:37		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-03-23/20:03:37		AUC for SVM:0.9725274725274725
+2022-03-23/20:03:37		Entered the save_model method of the File_Operation class
+2022-03-23/20:03:37		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-03-23/20:03:37		Entered the get_best_model method of the Model_Finder class
+2022-03-23/20:03:37		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-03-23/20:04:25		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-03-23/20:04:25		AUC for XGBoost:0.9492019916968935
+2022-03-23/20:04:25		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-03-23/20:04:44		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-03-23/20:04:44		AUC for SVM:0.894062361310595
+2022-03-23/20:04:44		Entered the save_model method of the File_Operation class
+2022-03-23/20:04:44		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-03-23/20:04:44		Entered the get_best_model method of the Model_Finder class
+2022-03-23/20:04:44		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-03-23/20:05:15		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-03-23/20:05:15		AUC for XGBoost:0.9697356478329929
+2022-03-23/20:05:15		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-03-23/20:05:27		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-03-23/20:05:27		AUC for SVM:0.9144525045382346
+2022-03-23/20:05:27		Entered the save_model method of the File_Operation class
+2022-03-23/20:05:27		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-03-23/20:05:27		Entered the get_best_model method of the Model_Finder class
+2022-03-23/20:05:27		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-03-23/20:05:39		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-03-23/20:05:39		AUC for XGBoost:0.9857723577235773
+2022-03-23/20:05:39		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-03-23/20:05:42		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-03-23/20:05:42		AUC for SVM:0.9785315040650407
+2022-03-23/20:05:42		Entered the save_model method of the File_Operation class
+2022-03-23/20:05:42		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-03-23/20:05:42		Successful End of Training
+2022-04-07/17:27:17		Start of Training
+2022-04-07/17:27:17		Entered the get_data method of the Data_Getter class
+2022-04-07/17:27:17		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-04-07/17:27:17		Entered the is_null_present method of the Preprocessor class
+2022-04-07/17:27:17		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-04-07/17:27:17		Entered the separate_label_feature method of the Preprocessor class
+2022-04-07/17:27:17		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-04-07/17:27:17		Entered the handle_correlation method of the Preprocessor class
+2022-04-07/17:27:17		Column search to handle_correlation Successful. Exited the handle_correlation method of the Preprocessor class
+2022-04-07/17:27:17		Entered the remove_columns method of the Preprocessor class
+2022-04-07/17:27:17		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-04-07/17:27:17		Entered the elbow_plot method of the KMeansClustering class
+2022-04-07/17:27:34		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-04-07/17:27:34		Entered the create_clusters method of the KMeansClustering class
+2022-04-07/17:27:35		Entered the save_model method of the File_Operation class
+2022-04-07/17:27:35		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-04-07/17:27:35		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-04-07/17:27:35		Entered the get_best_model method of the Model_Finder class
+2022-04-07/17:27:35		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/17:28:10		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/17:28:10		AUC for XGBoost:0.985189637369581
+2022-04-07/17:28:10		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/17:28:24		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/17:28:24		AUC for SVM:0.9462086836676508
+2022-04-07/17:28:24		Entered the save_model method of the File_Operation class
+2022-04-07/17:28:24		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-04-07/17:28:24		Entered the get_best_model method of the Model_Finder class
+2022-04-07/17:28:24		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/17:29:21		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/17:29:21		AUC for XGBoost:0.9758891928864568
+2022-04-07/17:29:21		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/17:29:55		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/17:29:55		AUC for SVM:0.9323985408116735
+2022-04-07/17:29:55		Entered the save_model method of the File_Operation class
+2022-04-07/17:29:55		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-04-07/17:29:55		Entered the get_best_model method of the Model_Finder class
+2022-04-07/17:29:55		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/17:31:01		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/17:31:01		AUC for XGBoost:0.9604887475023662
+2022-04-07/17:31:01		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/17:31:53		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/17:31:53		AUC for SVM:0.9044615627300452
+2022-04-07/17:31:53		Entered the save_model method of the File_Operation class
+2022-04-07/17:31:53		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-04-07/17:31:53		Entered the get_best_model method of the Model_Finder class
+2022-04-07/17:31:53		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/17:32:08		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/17:32:08		AUC for XGBoost:0.9976019184652278
+2022-04-07/17:32:08		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/17:32:13		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/17:32:13		AUC for SVM:0.9844541033839594
+2022-04-07/17:32:13		Entered the save_model method of the File_Operation class
+2022-04-07/17:32:13		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-04-07/17:32:13		Successful End of Training
+2022-04-07/18:06:13		Start of Training
+2022-04-07/18:06:13		Entered the get_data method of the Data_Getter class
+2022-04-07/18:06:13		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-04-07/18:06:13		Entered the is_null_present method of the Preprocessor class
+2022-04-07/18:06:14		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-04-07/18:06:14		Entered the separate_label_feature method of the Preprocessor class
+2022-04-07/18:06:14		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-04-07/18:06:14		Entered the handle_correlation method of the Preprocessor class
+2022-04-07/18:06:14		Column search to handle_correlation Successful. Exited the handle_correlation method of the Preprocessor class
+2022-04-07/18:06:14		Entered the remove_columns method of the Preprocessor class
+2022-04-07/18:06:14		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-04-07/18:06:14		Entered the elbow_plot method of the KMeansClustering class
+2022-04-07/18:06:56		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-04-07/18:06:56		Entered the create_clusters method of the KMeansClustering class
+2022-04-07/18:07:00		Entered the save_model method of the File_Operation class
+2022-04-07/18:07:00		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-04-07/18:07:00		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-04-07/18:07:00		Entered the get_best_model method of the Model_Finder class
+2022-04-07/18:07:00		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/18:08:26		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/18:08:26		AUC for XGBoost:0.9508624708624708
+2022-04-07/18:08:26		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/18:09:07		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/18:09:07		AUC for SVM:0.8732867132867131
+2022-04-07/18:09:07		Entered the save_model method of the File_Operation class
+2022-04-07/18:09:07		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-04-07/18:09:07		Entered the get_best_model method of the Model_Finder class
+2022-04-07/18:09:07		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/18:12:10		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/18:12:10		AUC for XGBoost:0.899189965643881
+2022-04-07/18:12:10		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/18:14:10		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/18:14:10		AUC for SVM:0.7635971815571388
+2022-04-07/18:14:10		Entered the save_model method of the File_Operation class
+2022-04-07/18:14:10		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-04-07/18:14:10		Entered the get_best_model method of the Model_Finder class
+2022-04-07/18:14:10		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/18:16:15		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/18:16:15		AUC for XGBoost:0.9836881633639271
+2022-04-07/18:16:15		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/18:18:08		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/18:18:09		AUC for SVM:0.9510270650731342
+2022-04-07/18:18:09		Entered the save_model method of the File_Operation class
+2022-04-07/18:18:09		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-04-07/18:18:09		Entered the get_best_model method of the Model_Finder class
+2022-04-07/18:18:09		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/18:18:46		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-04-07/18:18:46		AUC for XGBoost:0.9963008739661192
+2022-04-07/18:18:46		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/18:19:01		SVM best params: {'C': 1.0, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-04-07/18:19:01		AUC for SVM:0.9744897959183674
+2022-04-07/18:19:01		Entered the save_model method of the File_Operation class
+2022-04-07/18:19:01		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-04-07/18:19:01		Successful End of Training
